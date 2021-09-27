@@ -54,7 +54,7 @@ class LoveplayN(commands.Cog):
         botcolor = await ctx.embed_colour()
         e = discord.Embed(color=botcolor, description=desc)
         e.set_image(url=imgUrl)
-        e.set_footer(text="Made with Purrbot API\u2002💌")
+        e.set_footer(text="Fuck Taku")
         return e
 
 
