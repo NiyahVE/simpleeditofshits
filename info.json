@@ -1,0 +1,8 @@
+{
+  "author" : ["Niyah#7216"],
+  "install_msg" : "Oui",
+  "name" : "niyah",
+  "short" : "blabla",
+  "description" : "blabla",
+  "tags" : ["integrations", "services", "webhooks"]
+}
