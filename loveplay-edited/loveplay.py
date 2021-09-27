@@ -7,7 +7,7 @@ import random
 import requests
 import json
 
-class Loveplay(commands.Cog):
+class LoveplayN(commands.Cog):
     """Send love to other members of the server with hugs, kisses, etc."""
 
     def __init__(self):
