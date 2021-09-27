@@ -158,7 +158,7 @@ class LoveplayN(commands.Cog):
         await ctx.send(embed=e)
         
     @commands.command(name="cry")
-    async def lpslap(self, ctx, *, user):
+    async def lpcry(self, ctx, *, user):
         """Cry about it"""
         desc = "cry"
         src = self.purrbotApi(desc, 1, 20, "gif", "gif")
@@ -174,7 +174,7 @@ class LoveplayN(commands.Cog):
         await ctx.send(embed=e)
 
     @commands.command(name="fluff")
-    async def lpbite(self, ctx, *, user):
+    async def lpfluff(self, ctx, *, user):
         """Fluffy !"""
         desc = "fluff"
         src = self.purrbotApi(desc, 1, 20, "gif", "gif")
@@ -182,7 +182,7 @@ class LoveplayN(commands.Cog):
         await ctx.send(embed=e)
     
     @commands.command(name="smile")
-    async def lpbite(self, ctx, *, user):
+    async def lpsmile(self, ctx, *, user):
         """Send a smile !"""
         desc = "smile"
         src = self.purrbotApi(desc, 1, 20, "gif", "gif")
@@ -190,15 +190,7 @@ class LoveplayN(commands.Cog):
         await ctx.send(embed=e)
 
     @commands.command(name="tail")
-    async def lpbite(self, ctx, *, user):
-        """Send a tail !"""
-        desc = "tail"
-        src = self.purrbotApi(desc, 1, 20, "gif", "gif")
-        e = await self.buildEmbed(ctx, desc, src, user)
-        await ctx.send(embed=e)
-
-    @commands.command(name="tail")
-    async def lpbite(self, ctx, *, user):
+    async def lptail(self, ctx, *, user):
         """Send a tail !"""
         desc = "tail"
         src = self.purrbotApi(desc, 1, 20, "gif", "gif")
@@ -206,7 +198,7 @@ class LoveplayN(commands.Cog):
         await ctx.send(embed=e)
 
     @commands.command(name="tickle")
-    async def lpbite(self, ctx, *, user):
+    async def lptickle(self, ctx, *, user):
         """Tickle someone !"""
         desc = "tickle"
         src = self.purrbotApi(desc, 1, 20, "gif", "gif")
