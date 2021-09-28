@@ -215,3 +215,82 @@ class LoveplayN(commands.Cog):
         e = await self.buildEmbed(ctx, desc, src, user)
         await ctx.send(embed=e)
         
+    @commands.command(name="yaoi")
+    @commands.is_nsfw()
+    async def lpyaoi(self, ctx, *, user):
+        """Send a yaoi"""
+        desc = "yaoi"
+        req = requests.get("https://purrbot.site/api/img/nsfw/yaoi/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+
+    @commands.command(name="anal")
+    @commands.is_nsfw()
+    async def lpanal(self, ctx, *, user):
+        """give anal"""
+        desc = "anal"
+        req = requests.get("https://purrbot.site/api/img/nsfw/anal/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="blowjob")
+    @commands.is_nsfw()
+    async def lpblowjob(self, ctx, *, user):
+        """give a blowjob"""
+        desc = "blowjob"
+        req = requests.get("https://purrbot.site/api/img/nsfw/blowjob/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="cum")
+    @commands.is_nsfw()
+    async def lpcum(self, ctx, *, user):
+        """cum"""
+        desc = "cum"
+        req = requests.get("https://purrbot.site/api/img/nsfw/cum/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="fuck")
+    @commands.is_nsfw()
+    async def lpfuck(self, ctx, *, user):
+        """fuck"""
+        desc = "fuck"
+        req = requests.get("https://purrbot.site/api/img/nsfw/fuck/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="nneko")
+    @commands.is_nsfw()
+    async def lpnneko(self, ctx, *, user):
+        """nsfw neko"""
+        desc = "neko"
+        req = requests.get("https://purrbot.site/api/img/nsfw/neko/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="pussylick")
+    @commands.is_nsfw()
+    async def lppussylick(self, ctx, *, user):
+        """pussylick"""
+        desc = "pussylick"
+        req = requests.get("https://purrbot.site/api/img/nsfw/pussylick/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
+        
+    @commands.command(name="solo")
+    @commands.is_nsfw()
+    async def lpsolo(self, ctx, *, user):
+        """solo"""
+        desc = "solo"
+        req = requests.get("https://purrbot.site/api/img/nsfw/solo/gif").json()
+        src = req["link"]
+        e = await self.buildEmbed(ctx, desc, src, user)
+        await ctx.send(embed=e)
